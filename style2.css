@@ -1,0 +1,271 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'NewsReader', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; /* 添加换行 */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* 移除最后一个元素的右边距 */
+}
+
+帮我改一下这里面的那个search-box搜索框，让它变得洋气一点：body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'NewsReader', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; /* 添加换行 */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* 移除最后一个元素的右边距 */
+}
+
+.search-box {
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.ifLogin {
+    margin: 20px;
+}
+
+
+.top {
+    margin: 20px;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap; /* 允许书籍容器换行 */
+    justify-content: space-between; /* 均匀分布 */
+}
+
+.books {
+    width: calc(25% - 10px); /* 让每个书籍占据一行的一半，并添加间距 */
+    margin-bottom: 20px; /* 添加底部间距 */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* 添加最大宽度限制 */
+    margin: 0 auto; /* 水平居中 */
+    padding: 0 20px; /* 添加左右边距 */
+    display: grid; /* 使用网格布局 */
+    grid-template-columns: 1fr 1fr; /* 将容器分成两列 */
+    gap: 20px; /* 设置列之间的间距 */
+}
+
+.rules {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.news {
+    padding-top: 20px; /* 添加上边距 */
+}
+
+.new {
+    margin-bottom: 10px; 
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; /* 在小屏幕上将容器设置为单列 */
+    }
+
+    .notice,
+    .news {
+        width: 100%; /* 在小屏幕上使通知和新闻占据整个宽度 */
+    }
+    .books {
+        width: 100%; /* 在小屏幕上书籍占据整个宽度 */
+    }
+}
+
+section {
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.ifLogin {
+    margin: 20px;
+}
+
+
+.top {
+    margin: 20px;
+}
+
+.books img {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS for book container */
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* 添加最大宽度限制 */
+    margin: 0 auto; /* 水平居中 */
+    padding: 0 20px; /* 添加左右边距 */
+    display: grid; /* 使用网格布局 */
+    grid-template-columns: 1fr 1fr; /* 将容器分成两列 */
+    gap: 20px; /* 设置列之间的间距 */
+}
+
+.rules {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.news {
+    padding-top: 20px; /* 添加上边距 */
+}
+
+.new {
+    margin-bottom: 10px; 
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; /* 在小屏幕上将容器设置为单列 */
+    }
+
+    .notice,
+    .news {
+        width: 100%; /* 在小屏幕上使通知和新闻占据整个宽度 */
+    }
+    .books {
+        width: 100%; /* 在小屏幕上书籍占据整个宽度 */
+    }
+}

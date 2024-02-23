@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Vallejo Public Library</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js"></script>
+</head> 
+<body>
+    <header>
+        <h1>Vallejo Public Library</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./library-user.html">Users</a></li>
+                <li><a href="./inquiries.html">Inquiries</a></li>
+                <li><a href="./latest-news.html">Latest News</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <form action="./search.php" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="ifLogin">
+        <h2>Already a User?</h2>
+        <button id="loginButton">Log in</button>
+        <br>
+        <button id="adultButton">Adult Registeration</button>
+        <button id="youngButton">Underage Registeration</button>
+    </div>
+
+    <div class="container">
+        <div class="notice">
+            <h3 class="title">Instructions for entering the Library</h3>
+            <div class="rules">
+                <span style="color: orange; font-weight: bold; font-style: italic;">
+                    Please:
+                </span>
+                <p class="text">No food or drinks<br>Keep quiet<br>Return borrowed books on time<br>Trun off or silence mobile phones</p>
+            </div>
+        </div>
+    
+        <div class="news">
+            <h3 class="title">News in the Library</h3>
+            <div class="news-container">
+                <div class="new">
+                    <a href="latest-news.html">
+                        <img src="img/" alt="Latest News">
+                    </a>                
+                    <p class="news-description">news1...</p>
+                </div>
+                <div class="new">
+                    <a href="latest-news.html">
+                        <img src="img/" alt="Latest News">
+                    </a>                
+                    <p class="news-description">news2...</p>
+                </div>
+                <br> 
+                <a href="latest-news.html">
+                    More news...
+                </a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+        <h3 class="title">Top Read in Today's Library</h3>
+        <div class="books-container">
+            <div class="books">
+                <a href="catalog.html">
+                    <img src="img/goldface.jpg" alt="Top Books">
+                </a>                
+                <p class="news-description">Book1</p>
+            </div>
+            <div class="books">
+                <a href="catalog.html">
+                    <img src="img/singer.jpeg" alt="Top Books">
+                </a>  
+                <p class="news-description">Book2</p>
+            </div>
+            <div class="books">
+                <a href="catalog.html">
+                    <img src="img/homelesspoet.jpg" alt="Top Books">
+                </a>                
+                <p class="news-description">Book3</p>
+            </div>
+            <div class="books">
+                <a href="catalog.html">
+                    <img src="img/bigice.png" alt="Top Books">
+                </a>  
+                <p class="news-description">Book4</p>
+            </div>
+            <a href="catalog.html">
+                Go to the library.
+            </a> 
+        </div>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./library-user.html">Users</a></li>
+                <li><a href="./inquiries.html">Inquiries</a></li>
+                <li><a href="./latest-news.html">Latest News</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+        <p>Contact: yang.meizi@northeastern.edu</p>
+        <p>© 2024 Vallejo Public Library. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
